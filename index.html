@@ -10,23 +10,23 @@
 <body>
     <form novalidate>
         <p>
-            <label for="mail">
+            <label for="email">
                 <span>Please enter an email address:</span>
-                <input type="email" id="mail" name="mail" required minlength="6" />
+                <input type="email" id="email" name="email" required minlength="6" />
                 <span class="error" aria-live="polite"></span>
             </label>
         </p>
-        <p>
+        <!-- <p>
             <label for="country">
                 <span>Please enter your home county:</span>
-                <input type="text" id="country" name="country" required />
+                <input type="text" id="country" name="country" required minlength="3"/>
                 <span class="error" aria-live="polite"></span>
             </label>
-        </p>
-        <p>
+        </p> -->
+        <!-- <p>
             <label for="zipcode">
                 <span>Please enter your zip code:</span>
-                <input type="number" id="zipcode" name="zipcode" required />
+                <input type="number" id="zipcode" name="zipcode" required minlength="5"/>
                 <span class="error" aria-live="polite"></span>
             </label>
         </p>
@@ -43,7 +43,7 @@
                 <input type="password" id="passowrd2" name="password2" required minlength="6" />
                 <span class="error" aria-live="polite"></span>
             </label>
-        </p>
+        </p> -->
         <button>Submit</button>
     </form>
 </body>
